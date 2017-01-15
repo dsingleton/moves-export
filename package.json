@@ -6,11 +6,15 @@
   "author": "David Singleton",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/dsingleton/moves-export"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
 }
