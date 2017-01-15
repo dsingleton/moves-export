@@ -1,0 +1,16 @@
+{
+  "name": "moves-export",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dsingleton/moves-export",
+  "description": "Export data from the Moves app",
+  "author": "David Singleton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dsingleton/moves-export"
+  },
+  "license": "MIT"
+}
