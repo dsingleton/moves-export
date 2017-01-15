@@ -6,7 +6,8 @@
   "author": "David Singleton",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/"
+    "test": "mocha test/ && standard",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
   }
 }
